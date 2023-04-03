@@ -1,6 +1,7 @@
 # keycloak-custom-authenticator
 Custom Authenticator implementation to be used as a reference. 
 This sample sends a custom error message when the user is locked.
+This example contains the call to a SOAP API as example into the register flow
 
 # Deployment
 ```shell script
