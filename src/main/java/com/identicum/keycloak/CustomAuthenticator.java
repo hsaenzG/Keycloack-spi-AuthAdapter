@@ -8,8 +8,8 @@ import org.keycloak.models.RealmModel;
 import org.keycloak.models.UserModel;
 import org.jboss.logging.Logger;
 
-//public class CustomAuthenticator extends UsernamePasswordForm {
-public class CustomAuthenticator implements Authenticator {
+public class CustomAuthenticator extends UsernamePasswordForm {
+//public class CustomAuthenticator implements Authenticator {
 
 	private static final Logger log = Logger.getLogger(CustomAuthenticator.class);
 
